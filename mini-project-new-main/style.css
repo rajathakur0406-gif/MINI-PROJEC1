@@ -1,0 +1,31 @@
+body {
+    background: #f4f9ff;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-section {
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), 
+                url('https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress');
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border-radius: 14px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+#alertBox {
+    font-size: 20px;
+}
+
+button {
+    border-radius: 10px !important;
+}
+
+
